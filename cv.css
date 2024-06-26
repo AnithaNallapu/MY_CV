@@ -1,6 +1,29 @@
-h1{
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
+#unique-heading{
+    font-weight: bolder;
     color: navy;
+    font-size: 100px;
+    text-align: center;
 }
+h2{
+    text-align: center;
+    color: blue;
+    text-decoration-line: underline;
+}
+h3{
+   text-align: center;
+    color: blue;
+    text-decoration-line: underline;
+}
+h5{
+    font-weight: bold;
+    color: white;
+    background-color: navy;
+    font-size: 20px;
+}
+
+p1{
+   font-weight: bold;
+}
+p2{
+    font-weight: bold;
+ }
