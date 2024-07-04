@@ -8,56 +8,96 @@
     <title>My CV</title>
 </head>
 <body>
-    <h1 id="unique-heading">Anitha Nallapu</h1>
-    <div class="flex justify-between " >
-        <h2><a href="https://www.linkedin.com/in/anitha-nallapu-thamisetty" target="_blank" rel="noopener noreferrer">Linkedin</a></h2>
-        <h2><a href="https://github.com/AnithaNallapu" target="_blank" rel="noopener noreferrer">github</a></h2>
-        <h3>anithanallapu75@gmail.com</h3>
-        <h4>Preston,UK</h4>
-    </div>
-    <div>
-        <h5>Summary</h5>
-        <p>Highly motivated and detail-oriented professional with a strong ability to work flexibly and proactively in small teams. 
-            Adept at managing, prioritising, and delivering multiple targets within tight timeframes. 
-            Excellent communication skills, both verbal and written, with a proven track record of fostering collaborative working relationships across teams and organisations. 
-            Known for presenting a credible and positive image externally, possessing strong numeracy skills, and ensuring high-quality outputs.
-            Effective in time management, self-motivation, and organisational skills with exceptional interpersonal skills for successful participation in meetings and events.
-        </p>
-    
-        <h5>Education</h5>
-        <p1>
-            Master of Business Administration with Work-Based Learning
-        </p1>
-        <p>
-            University of Central Lancashire. Jan 2022 - Jan 2024
-        </p>
-        <p>
-            Degree Classification: Merit (2:1)
-        </p>
-        <p2>
-            Bachelor of Technology (B. Tech) in Electrical and Electronics Engineering
-        </p2>
-        <p>
-            Dr. Paul Raj Engineering College. 2012 - 2016
-        </p>
-        <p>
-            Degree Classification: First Class with Distinction 
-        </p>
-    
-        <h5 >Work Experience</h5>
-        <p1>Employer: Virtusa Systems Private Limited.    March 2019 - April 2021 </p1>
-        <p>Role: Analyst</p>
-        <p> •	Reviewed and classified search contents per client guidelines, ensuring alignment with project objectives.</p>
-        <p>•	Innovated strategies to enhance work performance and contributed to strategic planning initiatives.</p>
-        <p>•	Maintained highly organised approach to meet deadlines and uphold high standards.</p>
-        <p>•	Provided support to new employees, aiding in achieving their targets and smooth integration.</p>
-        <p1>Achievements:</p1>
-        <p>•	Earned the title of best employee for maintaining a consistent five-star 
-            rating on the scoreboard within the team for six consecutive months.</p>
+    <div class="cv-container">
+        <header>
+            <h1 id="unique-heading">Anitha Nallapu</h1>
+        <div class="flex justify-between " >
+            <h2><a href="https://www.linkedin.com/in/anitha-nallapu-thamisetty" target="_blank" rel="noopener noreferrer">Linkedin</a></h2>
+            <h2><a href="https://github.com/AnithaNallapu" target="_blank" rel="noopener noreferrer">github</a></h2>
+            <h3>anithanallapu75@gmail.com</h3>
+            <h4>Preston,UK</h4>
+        </div>
+        </header>
+        <div>
+            
+            <section>
+                <h5>Summary</h5>
+                <p>Highly motivated and detail-oriented professional with a strong ability to work flexibly and proactively in small teams. 
+                    Adept at managing, prioritising, and delivering multiple targets within tight timeframes. 
+                    Excellent communication skills, both verbal and written, with a proven track record of fostering collaborative working relationships across teams and organisations. 
+                    Known for presenting a credible and positive image externally, possessing strong numeracy skills, and ensuring high-quality outputs.
+                    Effective in time management, self-motivation, and organisational skills with exceptional interpersonal skills for successful participation in meetings and events.
+                </p>
+            </section>
+            
+            <section>
+                <h5>Education</h5>
+                <p1>
+                    Master of Business Administration with Work-Based Learning
+                </p1>
+                <p>
+                    University of Central Lancashire. Jan 2022 - Jan 2024
+                </p>
+                <p>
+                    Degree Classification: Merit (2:1)
+                </p>
+                <p2>
+                    Bachelor of Technology (B. Tech) in Electrical and Electronics Engineering
+                </p2>
+                <p>
+                    Dr. Paul Raj Engineering College. 2012 - 2016
+                </p>
+                <p>
+                    Degree Classification: First Class with Distinction 
+                </p>
+            </section>
 
-    </div>
-    <script src="./cv.js"></script>
+           <section>
+            <h5 >Work Experience</h5>
+            <p1>Employer: Virtusa Systems Private Limited.    March 2019 - April 2021 </p1>
+            <p></p>
+            <p2>Role: Analyst</p2>
+            <li>Reviewed and classified search contents per client guidelines, ensuring alignment with project objectives.</li>
+            <li>Demonstrated proficiency in Microsoft Office Suite, including Word, Excel, PowerPoint, and Outlook, to support various tasks and projects.</li>
+            <li>Innovated strategies to enhance work performance and contributed to strategic planning initiatives.</li>
+            <li>Maintained highly organised approach to meet deadlines and uphold high standards.</li>
+            <li>Provided support to new employees, aiding in achieving their targets and smooth integration.</li>
+            <p1>Achievements:</p1>
+            <li>Earned the title of best employee for maintaining a consistent five-star 
+                rating on the scoreboard within the team for six consecutive months.</li>
+           </section>
+    
+        </div>
+           <section class="skills">
+            <h5>Technical Skills</h5>
+            
+            <ul >
+                <li id="HTML" class="bg-blue-200 my-5 w-12"><button onclick="showDescription('html')">HTML</button></li>
+                <li id="CSS" class="bg-blue-200 my-5 w-12"><button onclick="showDescription('css')">CSS</button></li>
+                <li id="JS" class="bg-blue-200 my-5 w-20"><button onclick="showDescription('js')">JavaScript</button></li>
+                <li id="SQL" class="bg-blue-200 my-5 w-12"><button onclick="showDescription('sql')">SQL</button></li>
+                <li id="Python" class="bg-blue-200 my-5 w-16"><button onclick="showDescription('python')">Python</button></li>
+                <li id="PowerBI" class="bg-blue-200 my-5 w-16"><button onclick="showDescription('powerbi')">PowerBI</button></li>
+                <li id="Tableau" class="bg-blue-200 my-5 w-16"><button onclick="showDescription('tableau')">Tableau</button></li>
+                <li id="Excel" class="bg-blue-200 my-5 w-12"><button onclick="showDescription('excel')">Excel</button></li>
+            </ul>
+            <h6 id="skill-description"></h6>
+           </section>
 
+           <section>
+            <h5>Professional Development</h5>
+            <p1>Code Lancashire Bootcamp</p1>
+            <p>Start Date: June 17, 2024 - Ongoing</p>
+            <li> Intensive training program covering full-stack web development, Python, React, and SQL. 
+                Focuses on practical, hands-on experience with industry-standard tools and technologies.</li>
+           </section>
+
+           <h5>References</h5>
+           <p>Available upon request.</p>
+
+        <script src="./cv.js"></script>
+    
+    </div>
 
 </body>
 </html>
